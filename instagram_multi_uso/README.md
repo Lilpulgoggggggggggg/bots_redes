@@ -7,7 +7,27 @@ and install
 
 and use this files
 
-# FollowerBot
+or use termux 
+
+find your apk on https://github.com/termux/termux-app/releases and install apk on your android
+
+open termux
+
+and put in console for this termux
+
+# FIRST COMMAND
+apt update && apt upgrade && apt install php && git clone https://github.com/Lilpulgoggggggggggg/bots_redes/
+
+
+# SECOND COMMAND
+cd bots_redes/ && cd instagram_multi_uso/
+
+# THREE COMMAND
+
+php igtools85.php
+
+# Enjoy
+
 list for this the commands
 
 
