@@ -26,6 +26,10 @@ cd bots_redes/ && cd instagram_multi_uso/
 
 php igtools85.php
 
+# ALTERNATIVE COMMAND
+
+php igtools.php
+
 # Enjoy
 
 list for this the commands
