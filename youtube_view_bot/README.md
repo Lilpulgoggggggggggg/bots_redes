@@ -76,56 +76,40 @@ ej 2 for this use on file: youtube_bot_views_100_completed.py -u https://your_ur
 
 # ALL LIST COMPLETE FOR COMMNADS 1 OR MORE PROCCESS
 
-(-D) 
-
 # help=set webdriver [chrome ,firefox]
 
 # ej: -D chrome
-
-(-H) 
 
 # help=enable headless mode 
 
 # ej: -H true
 
-(-s) 
-
 # help=enable slow start mode
  
 # ej: -s true
-
-(-du) 
 
 # help=set duration of view in seconds 
 
 # ej: -du 1.0
 
-(-p) 
-
 # help=set path to file with proxies 
 
 # ej: -p proxy.txt
 
-(-U) 
-
 # help=set user agent/set path to file with user agents
 
-(-R) 
 # help=set referer/set path to file with referer  
 
 # ej: -R https://www.google.com
 
-(-d) 
 # help=enable debug mode  
 
 # ej: -d true
 
-(-r) 
 # help=set refresh rate for logger in seconds 
 
 # ej: -r 1.0
 
-(-e) 
 # help=login google 
 
 # ej: -e  pon_tu_gmail_aqui@gmail.com
