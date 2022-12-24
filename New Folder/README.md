@@ -14,8 +14,8 @@ open cmd.exe or any terminal installed on your windows and copy and put:
 
 pip install requests selenium undetected_chromedriver bs4
 
-#1
-#MULTI USE
+# 1
+# MULTI USE
 
 When you get expiration error on multi3.py any program, please change to your gmail account and start the bot again.
 
