@@ -37,6 +37,9 @@ When you get expiration error on get_instagram_followers.py or get_instagram_lik
 
 Although you change your username and still get expiration error, please try VPN and start the bot again. For example: Hotspot Shield Free VPN program.
 
+
+# REELES VIEWS
+
 on the file InstagramReelsViewsBot_gh.py change pon_tu_nombre_de_usuario_aqui to your username on line 17
 
 on the file InstagramReelsViewsBot_gh.py change change pon_tu_clave_aqui for this password on line 18
