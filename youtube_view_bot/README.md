@@ -76,7 +76,7 @@ ej 2 for this use on file: youtube_bot_views_100_completed.py -u https://your_ur
 
 
 
-# FINSH 1  OR MORE PROCCESS
+# FINSH 1 OR MORE PROCCESS
 
 to use example 1 put on cmd or any terminal: python youtube_bot_views_100_completed.py -u https://your_url_from_video -t 2 -D chrome -du 165 --refresh 165 --headless -e pon_tu_gmail_aqui
 
