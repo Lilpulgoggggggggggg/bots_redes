@@ -76,29 +76,25 @@ ej 2 for this use on file: youtube_bot_views_100_completed.py -u https://your_ur
 
 # ALL LIST COMPLETE FOR COMMNADS 1 OR MORE PROCCESS
 
-('-u','--url',help='set url of video/set path to file with urls',default='',required=True)
+(-D) # help=set webdriver [chrome ,firefox] ej: chrome
 
-('-t','--threads',help='set number of threads',type=int,default=15)
+(-H) # help=enable headless mode ej: -H true
 
-('-D','--driver',help='set webdriver',choices=['chrome','firefox'],default='chrome')
+(-s) # help=enable slow start mode ej: -s true
 
-('-H','--headless',help='enable headless mode',action='store_true')
+(-du) # help=set duration of view in seconds ej: -du 1.0
 
-('-s','--slow-start',help='enable slow start mode',action='store_true')
+(-p) # help=set path to file with proxies ej: -p proxy.txt
 
-('-du','--duration',help='set duration of view in seconds',type=float)
+(-U) # help=set user agent/set path to file with user agents
 
-('-p','--proxies',help='set path to file with proxies')
+(-R) # help=set referer/set path to file with referer ej: -R https://www.google.com
 
-('-U','--user-agent',help='set user agent/set path to file with user agents')
+(-d) # help=enable debug mode ej: -d true
 
-('-R','--referer',help='set referer/set path to file with referer',default='https://www.google.com')
+(-r) # help=set refresh rate for logger in seconds ej: -r 1.0
 
-('-d','--debug',help='enable debug mode',action='store_true')
-
-('-r','--refresh',help='set refresh rate for logger in seconds',type=float,default=1.0)
-
-('-e','--email',help='login google',default='pon_tu_gmail_aqui')
+(-e) # help=login google ej: pon_tu_gmail_aqui@gmail.com
 
 
 # FINSH 1 OR MORE PROCCESS
