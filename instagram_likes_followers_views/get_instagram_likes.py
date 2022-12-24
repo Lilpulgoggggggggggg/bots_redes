@@ -1,6 +1,6 @@
 from time import sleep
 import sys
-sys.path.append(r'C:\\Projects\\Get_Free_Followers')
+sys.path.append(r'./')
 from init import *
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
