@@ -74,6 +74,31 @@ cmds list for the file: youtube_bot_views_100_completed.py [-h] -u URL [-t THREA
 
 ej 2 for this use on file: youtube_bot_views_100_completed.py -u https://your_url_from_video -t 2 -D chrome -du 165 --refresh 165 --headless -e pon_tu_gmail_aqui
 
+# ALL LIST COMPLETE FOR COMMNADS 1 OR MORE PROCCESS
+
+('-u','--url',help='set url of video/set path to file with urls',default='',required=True)
+
+('-t','--threads',help='set number of threads',type=int,default=15)
+
+('-D','--driver',help='set webdriver',choices=['chrome','firefox'],default='chrome')
+
+('-H','--headless',help='enable headless mode',action='store_true')
+
+('-s','--slow-start',help='enable slow start mode',action='store_true')
+
+('-du','--duration',help='set duration of view in seconds',type=float)
+
+('-p','--proxies',help='set path to file with proxies')
+
+('-U','--user-agent',help='set user agent/set path to file with user agents')
+
+('-R','--referer',help='set referer/set path to file with referer',default='https://www.google.com')
+
+('-d','--debug',help='enable debug mode',action='store_true')
+
+('-r','--refresh',help='set refresh rate for logger in seconds',type=float,default=1.0)
+
+('-e','--email',help='login google',default='pon_tu_gmail_aqui')
 
 
 # FINSH 1 OR MORE PROCCESS
