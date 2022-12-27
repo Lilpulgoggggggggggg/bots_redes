@@ -1,0 +1,9 @@
+psutil
+argparse
+user_agent
+selenium-wire
+requests[security]
+selenium
+webdriver_manager
+undetected_chromedriver
+requests
