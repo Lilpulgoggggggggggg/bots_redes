@@ -24,7 +24,7 @@ info = {}
 print("loading...")
 time.sleep(3)
 os.system('cls')
-views = int(input("enter no. of like: "))
+views = int(input("enter no. of views: "))
 time.sleep(0)
 os.system('cls')
 username = (input("enter username on instagram: "))
