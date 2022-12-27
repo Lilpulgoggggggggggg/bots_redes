@@ -1,4 +1,6 @@
-
+os.system('pip install requests undetected_chromedriver webdriver_manager selenium')
+os.system('clear')
+os.system('cls')
 #importing required python packages
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
