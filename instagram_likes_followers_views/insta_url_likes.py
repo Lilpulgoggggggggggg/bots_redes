@@ -48,7 +48,7 @@ for i in range(views):
         print("your page is loading your link please wait...")
         time.sleep(4)
         os.system('cls')
-        enter_username = WebDriverWait(driver,20).until(EC.presence_of_element_located((By.NAME, 'password')))
+        enter_username = WebDriverWait(driver,20).until(EC.presence_of_element_located((By.NAME, 'username')))
         enter_username.send_keys(username +  + '\n')
         print("your link is successful put...")
         time.sleep(4)
