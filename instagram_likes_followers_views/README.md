@@ -21,13 +21,18 @@ After you run the program, enter your instagram username and get free Instagram 
 
 2 example on cmd or any terminal: python3 get_instagram_followers.py
 
-# LikeBot
+# LikeBot 1
 Liker bot for Instagram:
 
 After you run the program, enter your instagram post URL and get free Instagram likes. If you run it during 1 day, you'll get 1570 likes! No need to enter your password to the system. PS: You have to public profile to get free likes. example to use on cmd or any terminal: python get_instagram_likes.py
 2 example on cmd or any terminal: python3 get_instagram_likes.py
 
-# Get Credit
+
+# LikeBot 2
+Liker bot for Instagram:
+
+After you run the program, enter your instagram post URL and get free Instagram likes. If you run it during 1 day, you'll get 1570 likes! No need to enter your password to the system. PS: You have to public profile to get free likes. example to use on cmd or any terminal: python insta_url_likes.py.py
+2 example on cmd or any terminal: python3 insta_url_likes.py.py
 
 
 
