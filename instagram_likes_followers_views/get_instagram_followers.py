@@ -1,3 +1,6 @@
+os.system('pip install requests undetected_chromedriver webdriver_manager selenium')
+os.system('clear')
+os.system('cls')
 from time import sleep
 import sys
 sys.path.append(r'./')
