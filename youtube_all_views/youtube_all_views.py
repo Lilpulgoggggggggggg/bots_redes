@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 21 01:06:53 2021
-
-@author: VICKY JUNGHARE
-"""
-#importing required python packages
 
 if __name__=='__main__':
     from os import _exit
