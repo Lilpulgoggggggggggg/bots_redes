@@ -66,7 +66,7 @@ views = int(input("enter no. of view: "))
 view_time = float(input('enter time for each view: '))
 username = (input("plase put your username or your email: "))
 password = (input("plase put your password: "))
-url1 = (input("enter reel or photo url: "))
+url1 = (input("enter reel or photo url or all link on instagram: "))
 
 
 
