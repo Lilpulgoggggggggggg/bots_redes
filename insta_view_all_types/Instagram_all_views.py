@@ -75,12 +75,8 @@ import random
 proxies = ['10.0.1.1', '10.0.1.2', '10.0.1.3']
 proxy = random.choice(proxies)
 
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--proxy-server='+str(proxy))
-
-
-
 chrome_options = uc.ChromeOptions()
+chrome_options.add_argument('--proxy-server='+str(proxy))
 chrome_options.add_argument('--headless')
 driver = uc.Chrome(options=chrome_options)
 driver.get("https://www.instagram.com/")
