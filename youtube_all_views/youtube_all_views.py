@@ -80,11 +80,7 @@ enter_password.send_keys(password)
 enter_password.send_keys(Keys.RETURN)
 time.sleep(random.randint(1,4))
 
-try:
-except:
-   	pass
-   
-finally:
-	for i in range(views):
-            driver.get(url1)
-            time.sleep(view_time)
+
+for i in range(views):
+        driver.get(url1)
+        ime.sleep(view_time)
