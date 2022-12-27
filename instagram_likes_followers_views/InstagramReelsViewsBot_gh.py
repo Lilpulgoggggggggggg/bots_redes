@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 21 01:06:53 2021
-
-@author: VICKY JUNGHARE
-"""
+os.system('pip install requests undetected_chromedriver webdriver_manager selenium')
+os.system('clear')
+os.system('cls')
 #importing required python packages
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -13,11 +10,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains 
 import time
 import random
+from webdriver_manager.chrome import ChromeDriverManager
+import undetected_chromedriver as uc
+
 
 username= "pon_tu_nombre_de_usuario_aqui" #Instagram Username
 password= "pon_tu_clave_aqui" #Instagram Password
 
-driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
+chrome_options = uc.ChromeOptions()
+chrome_options.add_argument('--headless')
+driver = uc.Chrome(options=chrome_options)
 driver.get("https://www.instagram.com/")
 enter_username = WebDriverWait(driver,20).until(EC.presence_of_element_located((By.NAME, 'username')))
 enter_username.send_keys(username)
