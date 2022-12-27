@@ -3,6 +3,12 @@ download https://www.python.org/downloads/
 
 install .exe
 
+too any errors
+
+open cmd.exe or any terminal installed on your windows and copy and put:
+
+pip install requests selenium undetected_chromedriver bs4
+
 # FollowerBot
 Follower bot for Instagram:
 
