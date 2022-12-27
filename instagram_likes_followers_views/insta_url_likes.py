@@ -44,7 +44,7 @@ for i in range(views):
         chrome_options = uc.ChromeOptions()
         chrome_options.add_argument('--headless')
         driver = uc.Chrome(options=chrome_options)
-        driver.get("'https://tolinay.com/instagram-begeni-hilesi")
+        driver.get("https://tolinay.com/instagram-begeni-hilesi")
         print("your page is loading your link please wait...")
         time.sleep(4)
         os.system('cls')
