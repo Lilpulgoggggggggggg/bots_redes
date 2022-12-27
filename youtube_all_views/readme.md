@@ -10,7 +10,7 @@ Although you change your username and still get expiration error, please try VPN
 
 # ALL PROFILE VIEWS
 
-on the file Instagram_all_views.py To use follow the on-screen prompts
+on the file youtube_all_views.py To use follow the on-screen prompts
 
 # EXAMPLE
 
