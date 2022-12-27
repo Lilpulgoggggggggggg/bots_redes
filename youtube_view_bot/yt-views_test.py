@@ -8,11 +8,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains 
 import time
 import random
+from webdriver_manager.chrome import ChromeDriverManager
+import undetected_chromedriver as uc
+
 
 username= 'pon_tu_gmail_aqui \n'
 password= 'pon_tu_clave_aqui\n'
 
-driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
+chrome_options = uc.ChromeOptions()
+chrome_options.add_argument('--headless')
+driver = uc.Chrome(options=chrome_options)
 driver.get('https://accounts.google.com/')
 enter_username = WebDriverWait(driver,20).until(EC.presence_of_element_located((By.NAME, 'identifier')))
 enter_username.send_keys(username)
