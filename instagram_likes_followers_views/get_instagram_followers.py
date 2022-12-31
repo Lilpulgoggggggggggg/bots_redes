@@ -1,3 +1,4 @@
+import os
 os.system('pip install requests undetected_chromedriver webdriver_manager selenium')
 os.system('clear')
 os.system('cls')
