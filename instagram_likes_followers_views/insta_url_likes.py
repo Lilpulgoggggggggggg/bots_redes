@@ -42,9 +42,9 @@ os.system('cls')
 
 for i in range(views):
         chrome_options = uc.ChromeOptions()
-proxy = '72.167.52.91:8887'
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--proxy-server='+str(proxy))
+        proxy = '72.167.52.91:8887'
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--proxy-server='+str(proxy))
         driver = uc.Chrome(options=chrome_options)
         driver.get("https://tolinay.com/instagram-begeni-hilesi")
         print("your page is loading your link please wait...")
