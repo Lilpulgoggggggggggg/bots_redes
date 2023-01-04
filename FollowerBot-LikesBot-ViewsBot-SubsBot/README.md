@@ -2,14 +2,24 @@
 install requirements in a new virtual environment using pip install -r requirements.txt.
 
 # FollowerBot
-Follower bot for Instagram:
+Follower bot for Instagram and tiktok:
 
 After you run the program, enter your instagram username and get free Instagram followers. If you run it during 12 hours, you'll get 400 followers! No need to enter your password to the system. PS: You have to public profile to get free followers. 
 
 # LikeBot
-Liker bot for Instagram:
+Liker bot for Instagram and tiktok:
 
 After you run the program, enter your instagram post URL and get free Instagram likes. If you run it during 1 day, you'll get 1570 likes! No need to enter your password to the system. PS: You have to public profile to get free likes.
+
+# ViewBot
+View bot for Instagram and tiktok and youtube:
+
+After you run the program, enter your instagram,youtube,tiktok post URL and get free 100 views. If you run it during 1 day, you'll get 11.520 views! No need to enter your password to the system. PS: You have to public profile to get free views.
+
+# SubsBot
+Subscriber bot for youtube:
+
+After you run the program, enter your youtube profile URL and get free subscribers for youtube. If you run it during 12 hours, you'll get 400 subscribers! No need to enter your password to the system. PS: You have to public profile to get free subscribers.
 
 # Get Credit
 
