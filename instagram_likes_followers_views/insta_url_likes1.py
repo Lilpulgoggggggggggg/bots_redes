@@ -45,6 +45,7 @@ for i in range(views):
         proxy = '72.167.52.91:8887'
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--proxy-server='+str(proxy))
+        driver = uc.Chrome(options=chrome_options)
         driver.get("https://freezlike.co/instagram?free-trial=540-free-instagram-likes")
         print("your page is loading your link please wait...")
         time.sleep(4)
