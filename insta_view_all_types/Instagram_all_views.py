@@ -51,7 +51,9 @@ os.system('cls')
 
 
 chrome_options = uc.ChromeOptions()
+proxy = '72.167.52.91:8887'
 chrome_options.add_argument('--headless')
+chrome_options.add_argument('--proxy-server='+str(proxy))
 driver = uc.Chrome(options=chrome_options)
 driver.get("https://www.instagram.com/")
 print("your page is loading your account please wait...")

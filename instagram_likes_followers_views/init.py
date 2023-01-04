@@ -13,6 +13,9 @@ class Setup:
     def init(self):
         warnings.filterwarnings("ignore")
         chrome_options = webdriver.ChromeOptions()
+        proxy = '72.167.52.91:8887'
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--proxy-server='+str(proxy))
         chrome_options.add_argument("start-maximized")
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option('useAutomationExtension', False)
