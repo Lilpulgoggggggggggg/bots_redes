@@ -16,7 +16,7 @@ import undetected_chromedriver as uc
 class Setup:
     def init(self):
         chrome_options = uc.ChromeOptions()
-        proxy = '72.167.52.91:8887'
+        proxy = '72.167.52.91:1234'
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--proxy-server='+str(proxy))
         self.browser = uc.Chrome(options=chrome_options)

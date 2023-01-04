@@ -19,7 +19,7 @@ username= "pon_tu_nombre_de_usuario_aqui" #Instagram Username
 password= "pon_tu_clave_aqui" #Instagram Password
 
 chrome_options = uc.ChromeOptions()
-proxy = '72.167.52.91:8887'
+proxy = '72.167.52.91:1234'
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--proxy-server='+str(proxy))
 driver = uc.Chrome(options=chrome_options)
