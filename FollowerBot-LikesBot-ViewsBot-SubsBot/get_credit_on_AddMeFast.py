@@ -291,8 +291,7 @@ class AddMeFast:
         )
         do_like.click()
 
-        sleep(20)
-
+        sleep(10)
         self.browser.close()
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
@@ -326,7 +325,8 @@ class AddMeFast:
             EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'Follow')]"))
         )
         do_follow.click()
-        sleep(15)
+                           
+        sleep(10)
         self.browser.close()
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
@@ -358,7 +358,7 @@ class AddMeFast:
         self.browser.switch_to.window(child)
         actions = ActionChains(self.browser)
         actions.send_keys(Keys.RETURN).perform()
-        sleep(10)
+        sleep(9)
         self.browser.close()
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
@@ -390,7 +390,7 @@ class AddMeFast:
         self.browser.switch_to.window(child)
         actions = ActionChains(self.browser)
         actions.send_keys(Keys.RETURN).perform()
-        sleep(10)
+        sleep(9)
         self.browser.close()
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
@@ -422,7 +422,7 @@ class AddMeFast:
         self.browser.switch_to.window(child)
         actions = ActionChains(self.browser)
         actions.send_keys(Keys.RETURN).perform()
-        sleep(10)
+        sleep(9)
         self.browser.close()
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
@@ -750,9 +750,10 @@ class AddMeFast:
             do_upvote.click()
         except:
             sleep(1)
-
+        
         sleep(19)
         self.browser.close()
+                
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
         sleep(10)
@@ -786,7 +787,7 @@ class AddMeFast:
         sleep(2)
         actions.send_keys(Keys.RETURN).perform()
 
-        sleep(25)
+        sleep(9)
         self.browser.close()
         parent = self.browser.window_handles[0]
         self.browser.switch_to.window(parent)
